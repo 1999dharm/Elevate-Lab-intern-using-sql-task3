@@ -1,0 +1,49 @@
+
+### 📄 Project Summary: Pizza Sales Analysis (Pizzahut Database)
+
+This SQL project performs a comprehensive analysis of a fictional pizza restaurant's sales data, using structured queries to extract business insights from the `pizzahut` database. The dataset includes information on pizza types, sizes, pricing, order details, and timestamps. 
+
+The main goals of this analysis were:
+- To assess the overall sales performance.
+- To identify customer preferences and popular items.
+- To understand ordering patterns by time and category.
+
+#### Key Tables Used:
+- `orders`: Records of each order placed.
+- `order_details`: Quantity and type of pizzas in each order.
+- `pizzas`: Information about pizza size, price, and ID.
+- `pizza_types`: Detailed type, category, and name of pizzas.
+
+---
+
+### ✅ Outcomes / Insights
+
+1. **Total Orders:**  
+   The business received a total number of orders, indicating customer demand.
+
+2. **Total Revenue:**  
+   Revenue was calculated by summing the price of each pizza multiplied by quantity. This shows how much income the pizza sales generated.
+
+3. **Highest Priced Pizza:**  
+   The most expensive pizza type was identified, offering insight into premium offerings.
+
+4. **Most Popular Pizza Size:**  
+   A specific pizza size was the most commonly ordered, helping inform inventory and marketing focus.
+
+5. **Top 5 Most Ordered Pizza Types:**  
+   The most popular pizzas based on quantity were highlighted for menu optimization.
+
+6. **Total Quantity by Category:**  
+   Orders were grouped by pizza category (e.g., Classic, Veggie, Chicken) to see which categories perform best.
+
+7. **Orders by Hour:**  
+   Time-based order distribution analysis revealed peak ordering hours during the day.
+
+8. **Category-wise Pizza Count:**  
+   A simple count of how many pizza types exist in each category.
+
+9. **Average Pizzas per Day:**  
+   The average number of pizzas ordered daily was computed to track daily performance.
+
+10. **Top 3 Revenue-Generating Pizza Types:**  
+    These are the pizzas that brought in the most money, useful for promotional focus.
